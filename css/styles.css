@@ -11,3 +11,10 @@
     padding: 10px;
     border: 1px solid red;
 }
+.item:nth-of-type(4){
+    background-color: blue;
+    overflow: auto;
+    /*display: inline-grid;*/
+    display: grid;
+    grid-template: 30px 10px 10px / 5% 20px 10px;
+}
